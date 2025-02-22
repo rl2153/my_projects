@@ -1,0 +1,18 @@
+.text {
+  text-align: center;
+}
+
+.projects {
+  display: flex;
+  width: 100vw; /* Full viewport width */
+  height: 100vh; /* Full viewport height */
+  overflow: hidden; /* Prevent content from overflowing */
+}
+
+.projects > * {
+  flex: 1; /* Equal width for both components */
+  overflow: hidden; /* Hide overflowing content */
+  justify-content: center;
+  align-items: center;
+}
+
