@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+.content-container {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center elements horizontally */
+    text-align: center; /* Ensure text is centered */
+    width: 100%; /* Ensures it spans the full width */
+}
+
+.project-img {
+    max-width: 100%; /* Scale down image to fit */
+    max-height: 100%; /* Ensure image does not exceed parent */
+    object-fit: contain; /* Ensure the entire image is visible */
+    width: 400px;
+    height: 200px;
+}
