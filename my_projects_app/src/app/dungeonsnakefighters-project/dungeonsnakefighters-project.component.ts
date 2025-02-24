@@ -14,10 +14,12 @@ export class DungeonsnakefightersProjectComponent implements OnInit{
 
   imagePath: string = ''
   videoPath: string = ''
+  pdfPath: string = ''
 
   ngOnInit(): void {
     this.imagePath = `${this.globalService.mediaFolder}/dungeonsnakefighters/image.png`;
     this.videoPath = `${this.globalService.mediaFolder}/dungeonsnakefighters/unity.mp4`;
+    this.pdfPath = `${this.globalService.mediaFolder}/dungeonsnakefighters/RGTI.pdf`
   }
 
   
