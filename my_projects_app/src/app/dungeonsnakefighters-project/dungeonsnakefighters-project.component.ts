@@ -13,10 +13,13 @@ export class DungeonsnakefightersProjectComponent implements OnInit{
   constructor(public globalService : GlobalService) {}
 
   imagePath: string = ''
+  videoPath: string = ''
 
   ngOnInit(): void {
-    this.imagePath = `${this.globalService.mediaFolder}/dungeonsnakefighters/image.png`; // Base folder path
-
+    this.imagePath = `${this.globalService.mediaFolder}/dungeonsnakefighters/image.png`;
+    this.videoPath = `${this.globalService.mediaFolder}/dungeonsnakefighters/unity.mp4`;
   }
+
+  
 
 }
